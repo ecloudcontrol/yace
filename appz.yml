@@ -1,7 +1,7 @@
 app:
   name: yace
   code: yace
-  notify: akanade@ecloudcontrol.co
+  notify: akanade@ecloudcontrol.com
     
 build:
   version: 0.29
@@ -17,11 +17,11 @@ deploy:
   - 5000
  
 monitor:
-  notify: akanade@ecloudcontrol.co   
+  notify: akanade@ecloudcontrol.com   
     
 properties:
   AWS_ACCESS_KEY_ID: 
     vault: AWS_ACCESS_KEY_ID
   AWS_SECRET_ACCESS_KEY:
     vault: AWS_SECRET_ACCESS_KEY
-  revision : 21
+  revision : 20
